@@ -41,7 +41,7 @@ router.get("/user_data", function (req, res) {
 
 // logout functionality 
 // Route for logging user out
-router.get("/logout", function (req, res) {
+router.get("/logOut", function (req, res) {
     // login out session 
     req.logout();
     res.redirect("/");
